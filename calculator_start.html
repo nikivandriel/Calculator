@@ -15,28 +15,28 @@
     <div id="calculator">
         <div id="screen">
         <input type="text" id="result" placeholder ="0" value=""  disabled>
-        <input type="text" id="operator" disabled></div>
+        <input type="text" id="operator" placeholder= "" disabled></div>
         <div id="keys">
             <div id="numbers">
-                <div onclick="onClickNumber('7')">7</div>
-                <div onclick="onClickNumber('8')">8</div>
-                <div onclick="onClickNumber('9')">9</div>
-                <div onclick="onClickNumber('4')">4</div>
-                <div onclick="onClickNumber('5')">5</div>
-                <div onclick="onClickNumber('6')">6</div>
-                <div onclick="onClickNumber('1')">1</div>
-                <div onclick="onClickNumber('2')">2</div>
-                <div onclick="onClickNumber('3')">3</div>
-                <div onclick="onClickNumber('.')">.</div>
-                <div onclick="onClickNumber('0')">0</div>
-                <div onclick="onClickEquals('=')">=</div>
+                <button data-type="number" class="number">7</button>
+                <button data-type="number" class="number">8</button>
+                <button data-type="number" class="number">9</button>
+                <button data-type="number" class="number">4</button>
+                <button data-type="number" class="number">5</button>
+                <button data-type="number" class="number">6</button>
+                <button data-type="number" class="number">1</button>
+                <button data-type="number" class="number">2</button>
+                <button data-type="number" class="number">3</button>
+                <button data-type="number" class="number">.</button>
+                <button data-type="number" class="number">0</button>
+                <button data-type="equal" class="equals">=</button>
             </div>
             <div id="operators">
-                <div onclick="onClickCancel('C')">C</div>
-                <div onclick="onClickOperator('+')">+</div>
-                <div onclick="onClickOperator('-')">-</div>
-                <div onclick="onClickOperator('*')">x</div>
-                <div onclick="onClickOperator('/')">/</div>
+                <button data-type="cancel" class="cancel">C</button>
+                <button data-type="operator" class="operator">+</button>
+                <button data-type="operator" class="operator">-</button>
+                <button data-type="operator" class="operator">x</button>
+                <button data-type="operator" class="operator">/</button>
             </div>
         </div>
     </div>
